@@ -1,0 +1,75 @@
+.Songs {
+  width: 70%;
+  height: 100px;
+  margin: 20px auto;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+}
+
+.Songs .div1 {
+  width: 80px;
+  height: 80px;
+  margin: 10px 20px;
+}
+.Songs .div2 {
+  padding: 10px;
+}
+
+.Songs .div2 div {
+  font-size: large;
+  margin: 1px 0;
+  padding: 2px;
+}
+
+.Songs .div3 {
+  margin: auto;
+}
+
+.Songs .div3 p {
+  cursor: pointer;
+  font-size: large;
+}
+
+.Songs .div3 p:hover {
+  color: green;
+}
+
+.Songs .image {
+  width: 100%;
+}
+
+@media (max-width: 540px) {
+  .Songs {
+    width: 90%;
+    height: 70px;
+    margin: 20px auto;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+  }
+
+  .Songs .div1 {
+    width: 50px;
+    height: 50px;
+    /* margin:auto 0; */
+  }
+  .Songs .div2 {
+    padding: 0;
+  }
+
+  .Songs .div2 div {
+    font-size: smaller;
+  }
+
+  .Songs .div3 {
+    margin: auto;
+  }
+
+  .Songs .div3 p {
+    cursor: pointer;
+    font-size: small;
+  }
+}

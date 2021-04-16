@@ -1,0 +1,14 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.loader {
+  margin: 25% 40%;
+}
+
+@media (max-width: 540px) {
+  .loader {
+    margin: 65% 25%;
+  }
+}

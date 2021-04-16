@@ -1,0 +1,9 @@
+export const ADD_SONGS = "ADD_SONGS";
+export const ADD_TO_PLAYLIST = "ADD_TO_PLAYLIST";
+export const ADD_TO_LIST = "ADD_TO_LIST";
+export const DELETE_FROM_LIST = "DELETE_FROM_LIST";
+export const OPEN_LIST_DATA = "OPEN_LIST_DATA";
+export const SHUFFLE_LIST_DATA = "SHUFFLE_LIST_DATA";
+
+export const ADD_SONG_TO_PLAYLIST = "ADD_SONG_TO_PLAYLIST";
+export const CREATE_NEW_PLAYLIST = "CREATE_NEW_PLAYLIST";

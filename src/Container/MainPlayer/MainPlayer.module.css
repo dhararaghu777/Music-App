@@ -1,0 +1,64 @@
+.MainPlayer {
+  width: 100%;
+  text-align: center;
+}
+
+.MainPlayer ul {
+  list-style-type: none;
+  margin: 10px;
+}
+.MainPlayer li {
+  display: inline-flex;
+  margin: 10px 30px;
+  padding: 5px;
+  box-sizing: border-box;
+
+  text-decoration: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.MainPlayer .active {
+  background-color: orange;
+}
+
+.MainPlayer li a {
+  text-decoration: none;
+  color: white;
+  font-size: larger;
+  font-weight: 400;
+  background-color: green;
+  width: 90px;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.MainPlayer li a:hover,
+a:active {
+  background-color: orange;
+}
+
+.MainPlayer .ContentDiv {
+  margin: 20px auto;
+  text-align: center;
+}
+
+.MainPlayer .Div {
+  text-align: center;
+}
+
+@media (max-width: 540px) {
+  .MainPlayer ul {
+    list-style-type: none;
+    margin: 0 10px;
+  }
+  .MainPlayer li {
+    display: inline-block;
+    margin: 5px 10px;
+    padding: 0px;
+  }
+
+  .MainPlayer li a {
+    padding: 5px;
+  }
+}

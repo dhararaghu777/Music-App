@@ -1,0 +1,28 @@
+.ListData {
+  width: 70%;
+  margin: 20px auto;
+  text-align: right;
+}
+
+.ListData .buttons {
+  height: 30px;
+  border: 1px solid #ccc;
+  margin: 5px 20px;
+  border-radius: 10px;
+}
+
+.ListData .buttons:hover {
+  color: white;
+  background-color: green;
+}
+
+@media (max-width: 540px) {
+  .ListData {
+    width: 70%;
+  }
+
+  .ListData .buttons {
+    margin: 10px 10px;
+    display: inline-block;
+  }
+}
