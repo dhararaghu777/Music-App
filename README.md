@@ -1,2 +1,2 @@
-# Projects-1
-Created with CodeSandbox
+# Music App
+Project web URL: https://nifty-thompson-4e5bb3.netlify.app/
